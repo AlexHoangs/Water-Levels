@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main {
+}
+
+#titleDiv {
+    background-color: rgb(66, 145, 152);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#title {
+    color: white;
+    font-size: 28px;
+    font-family: "inter";
+    font-weight: bold;
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+#bodyDiv {
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#text {
+    width: 68%;
+}
+
+p {
+    font-family: "inter";
+    font-size: 16px;
+    padding-right: 7%;
+}
+
+#seeButton {
+    background-color: rgb(66, 145, 152);
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+img {
+    width: 100%;
+}
+
+#photo {
+    font-family: "inter";
+    font-size: 12px;
+    font-weight: medium;
+    width: 32%;
+}
+
+#hidden {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+.chart {
+}
+
+#chart-container {
+  position: relative;
+  margin: auto;
+  height: 400px;
+  width: 35vw;
+}
+
+#hiddenText {
+    width: 42%;
+/*     padding-left: 10%; */
+}
+
+MonthPicker {
+  width: 50px;
+}
+
+#changeMonth {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(66, 145, 152);
+}
+
+.month-year-picker {
+  width: 800px;
+  font-weight: medium;
+  font-size: 16px;
+}
+
+#monthButton {
+    width: 100px;
+    height: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    #title {
+        text-align: center;
+    }
+  #bodyDiv {
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    }
+    
+    #photo {
+        width: 100%;
+    }
+
+    #text {
+        align-self: center;
+        width: 100%;
+      margin-top: 30px;
+    }
+
+    #hidden {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 75px;
+    }
+
+    #hiddenText {
+        width: 100%;
+    }
+
+  #changeMonth {
+  margin-top: 50px;
+}
+    
+    #chart-container {
+  height: 50vh;
+  width: 75vw;
+      margin-top: 75px;
+      margin-bottom: 50px;
+}
+}
